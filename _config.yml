@@ -1,0 +1,23 @@
+# Site settings
+title: Thoughts | Jameson Knoll
+email: jameson.knoll@gmail.com
+description: My thoughts on software development, product design, and life in general
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "" # the base hostname & protocol for your site
+enable_retina: true
+permalink: :title
+nav_list:
+  Home : ['Home', '/', 'fa-home']
+  Home_Alt : ['Home Alt', '/home-alt', 'fa-home']
+  Home_Alt_2 : ['Home Alt 2', '/home-alt-2/', 'fa-home']
+  About : ['About', '/about', 'fa-anchor']
+  Contact : ['Contact', '/contact', 'fa-plane']
+  Author : ['Author', '/author/michelle', 'fa-user']
+single_footer: '<p>The writer community loves your content. Writer &copy; 2016 <a href="/">latest posts</a></p>'
+footer_links:
+    About: ['About', '/about']
+    Writer: ['Writer 2016', '/about']
+
+
+# Build settings
+# markdown: kramdown
